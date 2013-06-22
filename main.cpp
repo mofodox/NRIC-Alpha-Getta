@@ -1,7 +1,7 @@
 // Title: NRIC(Alpha)Getta
-// Version: 0.2 Alpha Build
+// Version: 0.2.1 Alpha Build
 // Author: mofodox
-// Date: 12 June 2013
+// Date: 22 June 2013
 
 #include <iostream>
 #include <string>
@@ -11,8 +11,11 @@ using namespace std;
 // Declare prototype
 void getInput(int user[], int numOfInput);
 void multiply(int results[], int sizeDefault);
+void printMultiply();
 void sum();
+void printSum();
 void division();
+void printFinalAns();
 
 /****************************************/
 
@@ -27,11 +30,13 @@ char alphabets[] = {'A','B','C','D','E','F','G','H','I','J','Z'};
 
 /***************************************/
 
+// Created classes to make the code
+// looks more cleaner and sexy
 class Heading {
 	public:
 		void getHeading() {
 			cout << "\n\n--------NRIC(Alpha)Getta--------" << endl;
-			cout << "--------Vers: 0.2A Build--------\n" << endl;
+			cout << "--------Vers: 0.2.1A Build--------\n" << endl;
 		}
 };
 
@@ -56,7 +61,7 @@ int main (int argc, char * const argv[]) {
 	Heading printHeading;
 	printHeading.getHeading();
 	
-	
+	// set the username to name
 	string name;
 	Name username;
 	username.setName(name);
@@ -65,19 +70,16 @@ int main (int argc, char * const argv[]) {
 	
 	getInput(user, 7);
 	multiply(results, 7);
-	
-	/*for(int i=0; i<7; i++) {
-		cout << user[i] << " * " << DEFAULT_NUMS[i]<< " = " << results[i] << "\n";
-	}*/
+	printMultiply();
 	
 	sum();
-	
-	// cout << total << endl;
+	printSum();
 	
 	division();
+	printFinalAns();
 	
-	// cout << FINAL_ANS << endl;
-	
+	// Checks if the FINAL_ANS
+	// equals the case number.
 	switch (FINAL_ANS) {
 		case 1:
 			cout << username.getName() << ", the last alphabet on your IC is: " << alphabets[10] << "\n" << endl;
@@ -115,7 +117,6 @@ int main (int argc, char * const argv[]) {
 		default:
 			cout << "Sorry, something went wrong. The program is terminated!\n" << endl;
 			return 0;
-			break;
 	}
 	
     return 0;
@@ -144,6 +145,18 @@ void multiply(int results[], int sizeDefault) {
 
 /***************************************/
 
+// This is to check if the mulitply() is working
+// properly or not.
+// This function is created for debugging purpose only;
+void printMultiply() {
+	for(int i=0; i<7; i++) {
+		cout << user[i] << " * " << DEFAULT_NUMS[i] << " = " << results[i] << "\n";  
+	}
+	cout << endl;
+}
+
+/***************************************/
+
 // Sum altogether in results[]
 // store it in total
 void sum() {
@@ -154,8 +167,26 @@ void sum() {
 
 /***************************************/
 
+// This is to print out the total.
+// This function is created for debugging purpose only;
+void printSum() {
+	cout << "The total is: " << total << endl;
+	cout << endl;
+}
+
+/***************************************/
+
 // total divide by divNum to get the remainder
 // and store it in FINAL_ANS
 void division() {
 	FINAL_ANS = total % divNum;
+}
+
+/***************************************/
+
+// This is to print out the FINAL_ANS
+// This function is created for debugging purpose only;
+void printFinalAns() {
+	cout << "Remainder is: " << FINAL_ANS << endl;
+	cout << endl;
 }
