@@ -57,6 +57,7 @@ class Name {
 
 /***************************************/
 
+// main
 int main (int argc, char * const argv[]) {
 	Heading printHeading;
 	printHeading.getHeading();
