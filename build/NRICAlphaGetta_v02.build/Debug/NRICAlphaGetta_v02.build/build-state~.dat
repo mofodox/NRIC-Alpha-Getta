@@ -1,0 +1,60 @@
+TNRICAlphaGetta_v02
+v7
+r0
+t392649982.880660
+cCheck dependencies
+cCompileC build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/main.o /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/NRICAlphaGetta_v02 normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BAC72CA00000000000000EE
+t1269592778
+s238
+
+N/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/NRICAlphaGetta_v02
+t1370957182
+s10728
+
+N/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/NRICAlphaGetta_v02.LinkFileList
+c0000000051B7257E000000000000009A
+t1370957182
+s154
+
+N/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/main.o
+t1370957180
+s67076
+
+N/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp
+c0000000051B7257B000000000000010E
+t1370957179
+s270
+i<iostream>
+i<string>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies392649982#392649982#0(0"0(0#1#0"4261848#0"0#
+
+CCompileC build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/main.o /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s392649982.842648
+e392649982.849350
+r1
+xCompileC
+xbuild/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/main.o
+x/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp392649982#392649982#0(0"0(0#0#73"/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp4261848#1769"    cd /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/NRICAlphaGetta_v02-generated-files.hmap -I/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/NRICAlphaGetta_v02-own-target-headers.hmap -I/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/NRICAlphaGetta_v02-all-target-headers.hmap -iquote /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/NRICAlphaGetta_v02-project-headers.hmap -F/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug -I/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/include -I/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/DerivedSources/i386 -I/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/DerivedSources -c /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/main.cpp -o /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/main.o0#
+
+CLd /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/NRICAlphaGetta_v02 normal i386
+s392649982.849521
+e392649982.880584
+r1
+xLd
+x/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/NRICAlphaGetta_v02
+xnormal
+xi386
+lSLF07#2@100"Link /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/NRICAlphaGetta_v02392649982#392649982#0(0"0(0#0#0"4261848#668"    cd /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug -F/Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug -filelist /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/NRICAlphaGetta_v02.build/Debug/NRICAlphaGetta_v02.build/Objects-normal/i386/NRICAlphaGetta_v02.LinkFileList -mmacosx-version-min=10.6 -o /Users/mofodox/Desktop/C++/NRICAlphaGetta_v02/NRICAlphaGetta_v02/build/Debug/NRICAlphaGetta_v020#
+
