@@ -70,13 +70,13 @@ int main (int argc, char * const argv[]) {
 	
 	getInput(user, 7);
 	multiply(results, 7);
-	printMultiply();
+	printMultiply(); // this is for debugging purpose
 	
 	sum();
-	printSum();
+	printSum(); // this is for debugging purpose
 	
 	division();
-	printFinalAns();
+	printFinalAns(); // this is for debugging purpose
 	
 	// Checks if the FINAL_ANS
 	// equals the case number.
